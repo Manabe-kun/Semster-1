@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Extension Initializer</Name>
+    <Description>Extension to initialize the Extension library after it is loaded by Threats Manager Platform and Studio.</Description>
+    <Icon>template.ico</Icon>
+    <TemplateID>ThreatsManagerPlatform.ExtensionInitializer</TemplateID>
+    <TemplateGroupID>ThreatsManagerPlatform</TemplateGroupID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <DefaultName>ExtensionInitializer.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>ThreatsManager.Interfaces</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true">ExtensionInitializer.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

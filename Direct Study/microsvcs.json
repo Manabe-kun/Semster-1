@@ -1,0 +1,1644 @@
+[
+    {
+        "name": "openshift-addon-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "addon-operator-catalog-kgdfn",
+                    "addon-operator-manager-5bcfcd898-ct6ks",
+                    "addon-operator-webhook-6c7d777958-q4p5d"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "addon-operator-webhook-6c7d777958-w6jn8"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "addon-operator-webhook-6c7d777958-fd4xw"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-cloud-ingress-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "cloud-ingress-operator-registry-ttdhb"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "cloud-ingress-operator-58695bf7d4-tfgbq"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-cluster-csi-drivers",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "aws-ebs-csi-driver-node-kkt2x"
+                ]
+            },
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "aws-ebs-csi-driver-controller-6868f8b7d5-t9c8n",
+                    "aws-ebs-csi-driver-node-46dkl",
+                    "aws-ebs-csi-driver-operator-cd898f87f-mbvst"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "aws-ebs-csi-driver-controller-6868f8b7d5-5h8v2",
+                    "aws-ebs-csi-driver-node-b6s2z"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "aws-ebs-csi-driver-node-4mkxs"
+                ]
+            },
+            {
+                "name": "ip-10-0-208-11.ec2.internal",
+                "pods": [
+                    "aws-ebs-csi-driver-node-5z4s8"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "aws-ebs-csi-driver-node-xkfmx"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "aws-ebs-csi-driver-node-tvgbb"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "aws-ebs-csi-driver-node-27g4r"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "aws-ebs-csi-driver-node-srzrd"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-cluster-node-tuning-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "tuned-kcrlb"
+                ]
+            },
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "tuned-84jkp"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "cluster-node-tuning-operator-d8f44574c-ctssv",
+                    "tuned-l8s9r"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "tuned-r7r4q"
+                ]
+            },
+            {
+                "name": "ip-10-0-208-11.ec2.internal",
+                "pods": [
+                    "tuned-gvv2z"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "tuned-6dfkf"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "tuned-jzz87"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "tuned-lvzgt"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "tuned-xd2j7"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-console",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "downloads-5649f8ccdc-dttqq"
+                ]
+            },
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "console-54fdccb9c8-rwlxv"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "console-54fdccb9c8-dttjb"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "downloads-5649f8ccdc-pfppp"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-dns",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "dns-default-gf2mb",
+                    "node-resolver-kdwt5"
+                ]
+            },
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "dns-default-zvwxx",
+                    "node-resolver-2rlv6"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "dns-default-wb9rx",
+                    "node-resolver-pjsr2"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "dns-default-mzq25",
+                    "node-resolver-rlwbf"
+                ]
+            },
+            {
+                "name": "ip-10-0-208-11.ec2.internal",
+                "pods": [
+                    "dns-default-t6bsk",
+                    "node-resolver-knm4h"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "node-resolver-2q9gt"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "dns-default-smqfr",
+                    "node-resolver-pd8cs"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "node-resolver-cg77x"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "dns-default-g7r2x",
+                    "node-resolver-wvw99"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-image-registry",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "node-ca-lvcw9"
+                ]
+            },
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "cluster-image-registry-operator-577b6d84b-hqbc4",
+                    "node-ca-rsdlf"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "node-ca-8kcr4"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "node-ca-z7rnw"
+                ]
+            },
+            {
+                "name": "ip-10-0-208-11.ec2.internal",
+                "pods": [
+                    "node-ca-jztbg"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "image-registry-7f9576485b-46ms2",
+                    "image-registry-7f9576485b-thg4j",
+                    "node-ca-r8qzn"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "node-ca-xhnjh"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "image-pruner-27615960--1-tltpf",
+                    "image-pruner-27616020--1-dmxjh",
+                    "image-pruner-27616080--1-j8q5w",
+                    "node-ca-ld7k4"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "node-ca-fbm6t"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-ingress-canary",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "ingress-canary-wz5wj"
+                ]
+            },
+            {
+                "name": "ip-10-0-208-11.ec2.internal",
+                "pods": [
+                    "ingress-canary-5h92x"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "ingress-canary-pj8cc"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "ingress-canary-hxl57"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "ingress-canary-4j2jl"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "ingress-canary-mvkmx"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-machine-config-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "machine-config-daemon-n9bpl"
+                ]
+            },
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "machine-config-controller-86cb6bdd67-llkhz",
+                    "machine-config-daemon-n4xpf",
+                    "machine-config-server-mdhjf"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "machine-config-daemon-fmz4h",
+                    "machine-config-operator-669cc6b76c-9hfjs",
+                    "machine-config-server-jdkkb"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "machine-config-daemon-5z455",
+                    "machine-config-server-hr8hf"
+                ]
+            },
+            {
+                "name": "ip-10-0-208-11.ec2.internal",
+                "pods": [
+                    "machine-config-daemon-zt2z9"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "machine-config-daemon-fldfd"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "machine-config-daemon-5s595"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "machine-config-daemon-jsnk4"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "machine-config-daemon-qqq74"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-managed-node-metadata-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "managed-node-metadata-operator-registry-gbd6v",
+                    "openshift-managed-node-metadata-operator-controller-manage6ts8g"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-marketplace",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "certified-operators-jvntp"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "marketplace-operator-6c754c5499-rwwgf"
+                ]
+            },
+            {
+                "name": "ip-10-0-208-11.ec2.internal",
+                "pods": [
+                    "community-operators-9n748"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "redhat-operators-nz92l"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "osd-patch-subscription-source-27615960--1-fnmk7",
+                    "osd-patch-subscription-source-27616020--1-cgjbn",
+                    "osd-patch-subscription-source-27616080--1-4v278"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "redhat-marketplace-f8ptg"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-monitoring",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "node-exporter-dh59f",
+                    "sre-dns-latency-exporter-dlkvz"
+                ]
+            },
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "node-exporter-dbngz",
+                    "sre-dns-latency-exporter-6r4bs"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "cluster-monitoring-operator-5b5cf9998c-n9z24",
+                    "node-exporter-lqkzb",
+                    "sre-dns-latency-exporter-ch85l"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "node-exporter-g96fb",
+                    "sre-dns-latency-exporter-j8lq5"
+                ]
+            },
+            {
+                "name": "ip-10-0-208-11.ec2.internal",
+                "pods": [
+                    "node-exporter-lrf82",
+                    "sre-dns-latency-exporter-w55nl"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "alertmanager-main-0",
+                    "configure-alertmanager-operator-77587b686d-677jg",
+                    "grafana-596fddbc55-6xhnk",
+                    "kube-state-metrics-5485f98bc8-n6fvr",
+                    "node-exporter-fqhv4",
+                    "openshift-state-metrics-5bd94b47ff-pftjv",
+                    "prometheus-adapter-655cd7767d-rdxpj",
+                    "prometheus-k8s-0",
+                    "sre-dns-latency-exporter-bqvlp",
+                    "sre-stuck-ebs-vols-1-vslbl",
+                    "telemeter-client-7b65dd75c7-qp2nj",
+                    "thanos-querier-84c94b4bfc-q25v2",
+                    "token-refresher-595576d77c-2xszh"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "configure-alertmanager-operator-registry-hh77w",
+                    "node-exporter-bq974",
+                    "osd-cluster-ready--1-vb952",
+                    "sre-dns-latency-exporter-9hfd2"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "alertmanager-main-1",
+                    "alertmanager-main-2",
+                    "node-exporter-prbn5",
+                    "osd-rebalance-infra-nodes-27616050--1-n46tk",
+                    "osd-rebalance-infra-nodes-27616065--1-v7mnv",
+                    "osd-rebalance-infra-nodes-27616080--1-n6fgb",
+                    "prometheus-adapter-655cd7767d-vchbf",
+                    "prometheus-k8s-1",
+                    "prometheus-operator-794bfc8694-jsbzr",
+                    "sre-dns-latency-exporter-qp2kl",
+                    "thanos-querier-84c94b4bfc-qx7tc"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "node-exporter-6f8jd",
+                    "sre-dns-latency-exporter-9rw8z"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-multus",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "multus-additional-cni-plugins-7fhkx",
+                    "multus-x5869",
+                    "network-metrics-daemon-k4prs"
+                ]
+            },
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "multus-additional-cni-plugins-5vb97",
+                    "multus-admission-controller-jf4k2",
+                    "multus-crpcs",
+                    "network-metrics-daemon-gb99n"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "multus-additional-cni-plugins-24p69",
+                    "multus-admission-controller-zn7xg",
+                    "multus-fwgnr",
+                    "network-metrics-daemon-wn7ns"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "multus-additional-cni-plugins-r92bx",
+                    "multus-admission-controller-nfk25",
+                    "multus-kffcf",
+                    "network-metrics-daemon-jvz85"
+                ]
+            },
+            {
+                "name": "ip-10-0-208-11.ec2.internal",
+                "pods": [
+                    "multus-5pftd",
+                    "multus-additional-cni-plugins-ld98j",
+                    "network-metrics-daemon-r5p6w"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "multus-additional-cni-plugins-dvnth",
+                    "multus-fzz5r",
+                    "network-metrics-daemon-cclc5"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "multus-additional-cni-plugins-mlnf9",
+                    "multus-wqz9v",
+                    "network-metrics-daemon-kztxl"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "multus-96wrf",
+                    "multus-additional-cni-plugins-q75dv",
+                    "network-metrics-daemon-b6k9f"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "multus-additional-cni-plugins-wkslx",
+                    "multus-mn6br",
+                    "network-metrics-daemon-8m5hq"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-network-diagnostics",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "network-check-target-rzwgx"
+                ]
+            },
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "network-check-target-nlbhg"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "network-check-target-bhlhg"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "network-check-target-dqgwp"
+                ]
+            },
+            {
+                "name": "ip-10-0-208-11.ec2.internal",
+                "pods": [
+                    "network-check-target-6dz5b"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "network-check-target-vwfnr"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "network-check-target-hrjz7"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "network-check-target-6blmt"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "network-check-source-545465d8bc-w9495",
+                    "network-check-target-sn228"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-ocm-agent-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "ocm-agent-operator-registry-bpjv6"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "ocm-agent-75799d96c9-kncm2",
+                    "ocm-agent-operator-569464f748-76t9w"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-sdn",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "sdn-6grtl"
+                ]
+            },
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "sdn-controller-bw968",
+                    "sdn-sqgcd"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "sdn-controller-dzc25",
+                    "sdn-xkskq"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "sdn-controller-47vr7",
+                    "sdn-d282j"
+                ]
+            },
+            {
+                "name": "ip-10-0-208-11.ec2.internal",
+                "pods": [
+                    "sdn-rp2wx"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "sdn-cxqtb"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "sdn-2r6cp"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "sdn-2jr8q"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "sdn-4fmmd"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-security",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "splunkforwarder-ds-d6kkf"
+                ]
+            },
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "audit-exporter-c7gdn",
+                    "splunkforwarder-ds-vxwk6"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "audit-exporter-99nrd",
+                    "splunkforwarder-ds-7l65n"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "audit-exporter-6dw78",
+                    "splunkforwarder-ds-q8hbc"
+                ]
+            },
+            {
+                "name": "ip-10-0-208-11.ec2.internal",
+                "pods": [
+                    "splunkforwarder-ds-44r74"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "splunkforwarder-ds-mhgcn"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "splunkforwarder-ds-pq89f"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "splunkforwarder-ds-zxjl8"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "splunkforwarder-ds-9xvg8"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-splunk-forwarder-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "splunk-forwarder-operator-catalog-qf8mh"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "splunk-forwarder-operator-65f4bb9f55-8s8xx"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-user-workload-monitoring",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "prometheus-user-workload-1",
+                    "thanos-ruler-user-workload-0"
+                ]
+            },
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "prometheus-operator-66d96dcb64-qvbjm"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "prometheus-user-workload-0",
+                    "thanos-ruler-user-workload-1"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-velero",
+        "nodes": [
+            {
+                "name": "ip-10-0-156-33.ec2.internal",
+                "pods": [
+                    "managed-velero-operator-registry-skcbg"
+                ]
+            },
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "managed-velero-operator-65b6b7685-frwg2",
+                    "velero-ff949d7c6-4c9tx"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-apiserver",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "apiserver-58f56d745b-vwptd"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "apiserver-58f56d745b-zgssb"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "apiserver-58f56d745b-g9nql"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-authentication",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "oauth-openshift-647458df78-rwppp"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "oauth-openshift-647458df78-8sqms"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "oauth-openshift-647458df78-c7wv5"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-cloud-credential-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "pod-identity-webhook-756fdc6f57-5g7wz"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "cloud-credential-operator-86fd4f946-ldclq"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-cluster-samples-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "cluster-samples-operator-757c6c9b94-66ph9"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-cluster-storage-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "cluster-storage-operator-6475858889-thhs7",
+                    "csi-snapshot-controller-5d6c547d9b-8cdpw",
+                    "csi-snapshot-webhook-f88d9d7cf-bgk7f"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "csi-snapshot-controller-5d6c547d9b-j62b2",
+                    "csi-snapshot-controller-operator-d4ffd7589-t4fmh",
+                    "csi-snapshot-webhook-f88d9d7cf-jwglb"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-console-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "console-operator-7899867f84-k57br"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-controller-manager-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "openshift-controller-manager-operator-74b76dcfbb-5j79d"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-controller-manager",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "controller-manager-mgxrq"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "controller-manager-q7q67"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "controller-manager-7zvjv"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-etcd",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "etcd-ip-10-0-177-51.ec2.internal",
+                    "etcd-quorum-guard-676cccc685-825cp"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "etcd-ip-10-0-204-2.ec2.internal",
+                    "etcd-quorum-guard-676cccc685-7qg4k"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "etcd-ip-10-0-206-9.ec2.internal",
+                    "etcd-quorum-guard-676cccc685-q9jx7"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-kube-apiserver",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "installer-6-ip-10-0-177-51.ec2.internal",
+                    "installer-7-ip-10-0-177-51.ec2.internal",
+                    "installer-8-ip-10-0-177-51.ec2.internal",
+                    "kube-apiserver-ip-10-0-177-51.ec2.internal",
+                    "revision-pruner-8-ip-10-0-177-51.ec2.internal"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "installer-8-ip-10-0-204-2.ec2.internal",
+                    "kube-apiserver-ip-10-0-204-2.ec2.internal",
+                    "revision-pruner-8-ip-10-0-204-2.ec2.internal"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "installer-8-ip-10-0-206-9.ec2.internal",
+                    "kube-apiserver-ip-10-0-206-9.ec2.internal",
+                    "revision-pruner-8-ip-10-0-206-9.ec2.internal"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-kube-controller-manager",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "installer-8-ip-10-0-177-51.ec2.internal",
+                    "installer-9-ip-10-0-177-51.ec2.internal",
+                    "kube-controller-manager-ip-10-0-177-51.ec2.internal",
+                    "revision-pruner-7-ip-10-0-177-51.ec2.internal",
+                    "revision-pruner-8-ip-10-0-177-51.ec2.internal",
+                    "revision-pruner-9-ip-10-0-177-51.ec2.internal"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "installer-9-ip-10-0-204-2.ec2.internal",
+                    "kube-controller-manager-ip-10-0-204-2.ec2.internal",
+                    "revision-pruner-9-ip-10-0-204-2.ec2.internal"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "installer-9-ip-10-0-206-9.ec2.internal",
+                    "kube-controller-manager-ip-10-0-206-9.ec2.internal",
+                    "revision-pruner-9-ip-10-0-206-9.ec2.internal"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-kube-scheduler",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "installer-8-ip-10-0-177-51.ec2.internal",
+                    "installer-9-ip-10-0-177-51.ec2.internal",
+                    "openshift-kube-scheduler-ip-10-0-177-51.ec2.internal",
+                    "revision-pruner-7-ip-10-0-177-51.ec2.internal",
+                    "revision-pruner-8-ip-10-0-177-51.ec2.internal",
+                    "revision-pruner-9-ip-10-0-177-51.ec2.internal"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "installer-9-ip-10-0-204-2.ec2.internal",
+                    "openshift-kube-scheduler-ip-10-0-204-2.ec2.internal",
+                    "revision-pruner-9-ip-10-0-204-2.ec2.internal"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "installer-9-ip-10-0-206-9.ec2.internal",
+                    "openshift-kube-scheduler-ip-10-0-206-9.ec2.internal",
+                    "revision-pruner-9-ip-10-0-206-9.ec2.internal"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-kube-storage-version-migrator-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "kube-storage-version-migrator-operator-594db47c64-44sl9"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-machine-api",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "cluster-autoscaler-operator-5ddffb86dc-tcqck",
+                    "cluster-baremetal-operator-865b8d5f7b-xq4n6",
+                    "machine-api-controllers-7f98cfd89d-w27h6"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "machine-api-operator-7c469bb59c-jqrsj"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-managed-upgrade-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "managed-upgrade-operator-576dcf8d6c-qjnsp"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "managed-upgrade-operator-catalog-zrmkm"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-oauth-apiserver",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "apiserver-6dd5c4b589-x6qpg"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "apiserver-6dd5c4b589-x9zvq"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "apiserver-6dd5c4b589-rlngb"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-operator-lifecycle-manager",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "packageserver-77ff6674f7-z7gfw"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "catalog-operator-6fd94d56f5-72rnn",
+                    "olm-operator-89bc8cc77-r5j7g",
+                    "package-server-manager-f6989f64c-ml7zh",
+                    "packageserver-77ff6674f7-lzt45"
+                ]
+            },
+            {
+                "name": "ip-10-0-208-11.ec2.internal",
+                "pods": [
+                    "collect-profiles-27616050--1-q5w4p",
+                    "collect-profiles-27616065--1-fkgr7",
+                    "collect-profiles-27616080--1-2j66v"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-service-ca-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "service-ca-operator-787dff6486-gnf64"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-service-ca",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "service-ca-5487579f66-gwczc"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-validation-webhook",
+        "nodes": [
+            {
+                "name": "ip-10-0-177-51.ec2.internal",
+                "pods": [
+                    "validation-webhook-zkgzw"
+                ]
+            },
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "validation-webhook-5h77q"
+                ]
+            },
+            {
+                "name": "ip-10-0-206-9.ec2.internal",
+                "pods": [
+                    "validation-webhook-6sttq"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-apiserver-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "openshift-apiserver-operator-7679d78dbf-54ptt"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-authentication-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "authentication-operator-585887c6f5-z69kz"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-cloud-controller-manager-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "cluster-cloud-controller-manager-operator-b4c987679-v2nxx"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-cluster-machine-approver",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "machine-approver-74cc8cd97b-52w6v"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-cluster-version",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "cluster-version-operator-67c8748996-5spc5"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-config-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "openshift-config-operator-544ff954b9-qv942"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-dns-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "dns-operator-8594c7b69c-rhrrm"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-etcd-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "etcd-operator-ff6d8674c-5r228"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-ingress-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "ingress-operator-f97b65bdc-47vc6"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-insights",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "insights-operator-6647576c47-vjkx7"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-kube-apiserver-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "kube-apiserver-operator-66b6898d6-68v6l"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-kube-controller-manager-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "kube-controller-manager-operator-77b594cbb8-65v2g"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-kube-scheduler-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "openshift-kube-scheduler-operator-84ffbf5ffb-x2tth"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-network-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-204-2.ec2.internal",
+                "pods": [
+                    "network-operator-68f8845767-9pswf"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-custom-domains-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "custom-domains-operator-fd4fb4846-47gp9"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "custom-domains-operator-registry-th2j4"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-ingress",
+        "nodes": [
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "router-default-7b8cc857d8-w6zcv"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "router-default-7b8cc857d8-cfqb5"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-must-gather-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "must-gather-operator-f9d466574-vl5qh"
+                ]
+            },
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "must-gather-operator-registry-c7d6g"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-osd-metrics",
+        "nodes": [
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "osd-metrics-exporter-7864864bd8-nwsdj"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "osd-metrics-exporter-registry-67dbm"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-rbac-permissions",
+        "nodes": [
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "rbac-permissions-operator-6cc64b7d46-mlz4g"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "rbac-permissions-operator-registry-tj8sq"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-route-monitor-operator",
+        "nodes": [
+            {
+                "name": "ip-10-0-216-222.ec2.internal",
+                "pods": [
+                    "blackbox-exporter-95bd4868b-rvfzd",
+                    "route-monitor-operator-controller-manager-857f8dd5db-488wt"
+                ]
+            },
+            {
+                "name": "ip-10-0-255-6.ec2.internal",
+                "pods": [
+                    "route-monitor-operator-registry-74xj8"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-kube-storage-version-migrator",
+        "nodes": [
+            {
+                "name": "ip-10-0-220-137.ec2.internal",
+                "pods": [
+                    "migrator-5894f69584-w5d6w"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-backplane-srep",
+        "nodes": [
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "osd-delete-ownerrefs-serviceaccounts-27616027--1-242wj",
+                    "osd-delete-ownerrefs-serviceaccounts-27616057--1-27gxq",
+                    "osd-delete-ownerrefs-serviceaccounts-27616087--1-s8b4l"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-backplane",
+        "nodes": [
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "osd-delete-backplane-serviceaccounts-27616070--1-6fqgc",
+                    "osd-delete-backplane-serviceaccounts-27616080--1-lls7w",
+                    "osd-delete-backplane-serviceaccounts-27616090--1-h5497"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-build-test",
+        "nodes": [
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "sre-build-test-27616091--1-wjq48"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "openshift-sre-pruning",
+        "nodes": [
+            {
+                "name": "ip-10-0-220-250.ec2.internal",
+                "pods": [
+                    "builds-pruner-27615960--1-52njg",
+                    "builds-pruner-27616020--1-7str5",
+                    "builds-pruner-27616080--1-nksr7",
+                    "deployments-pruner-27615960--1-rf587",
+                    "deployments-pruner-27616020--1-x4c5x",
+                    "deployments-pruner-27616080--1-hhhkf"
+                ]
+            }
+        ]
+    }
+]
